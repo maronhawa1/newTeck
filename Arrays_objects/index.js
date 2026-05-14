@@ -1,0 +1,25 @@
+let students = ["Dania", "Omar", "Lina", "Rami"];
+students.push("Sara");
+students.unshift("Adam");
+students[3] = "Lamar";
+students.splice(students.length - 1, 1, "removedLast");
+students.splice(0, 1, "removedFirst");
+hasRami = students.includes("Rami");
+omarIndex = students.indexOf("Omar");
+let groupA = students.slice(0, 2);
+let groupB = ["Nour", "Tala"];
+let allGroups = groupA.concat(groupB);
+let groupString = allGroups.join(" | ");
+students.sort();
+students.reverse();
+seats = [1, 2, 3, 4, 5];
+reservedSeats = seats.splice(1, 3, "Reserved", "Reserved", "Reserved");
+let studentsString = students.join(", ");
+
+console.log(omarIndex);
+console.log(hasRami);
+console.log(students);
+console.log(groupString);
+console.log(seats);
+console.log(reservedSeats);
+console.log(studentsString);
