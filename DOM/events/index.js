@@ -85,7 +85,7 @@ contactForm.addEventListener("submit", (e) => {
     formStatus.textContent = "please fill all fields";
     formStatus.style.color = "red";
   } else {
-    formStatus.textContent = "Message sent!";
+    formStatus.textContent = "Message sent! to " + emailInput.value;
     formStatus.style.color = "green";
   }
 });
