@@ -1,0 +1,35 @@
+.habitCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  padding: 14px;
+  margin: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.habitCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.habitCard button {
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+
+.habitCard button:first-of-type {
+  background-color: #ff0000;
+}
+
+.habitCard button:last-of-type {
+  background-color: #04aa6d;
+}

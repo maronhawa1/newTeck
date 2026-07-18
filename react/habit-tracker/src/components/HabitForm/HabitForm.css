@@ -1,0 +1,62 @@
+.habit-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  max-width: 600px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.habit-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #d5d5d5;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.habit-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.habit-form ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+}
+
+.empty-state {
+  text-align: center;
+  color: #999;
+  margin-top: 40px;
+}
